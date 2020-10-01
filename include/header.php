@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="assests/font-awesome/css/font-awesome.min.css">
 
   <!-- custom css -->
-  <link rel="stylesheet" href="custom/home.css">
+  <link rel="stylesheet" href="/preorder/custom/home.css">
 
   <!-- jquery -->
 	<script src="assests/jquery/jquery.min.js"></script>
