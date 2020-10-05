@@ -4,7 +4,28 @@
   background-color: red;
 }
 
+.foodContainer{
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
+}
+
+.box{
+margin: 0 auto;
+padding-top: 50px;
+width: 500px;
+height: 500px;
+}
+
+.preorderForm{
+  margin:0 auto;
+  width: 500px;
+  height:500px;
+  margin-top: 40px;
+
+}
 
 ul {
   /* margin: 150px auto 0; */
@@ -141,4 +162,66 @@ a:hover:after {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.qty .count {
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0 2px
+    ;min-width: 35px;
+    text-align: center;
+}
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    }
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+/* div {
+    text-align: center;
+} */
+.minus:hover{
+    background-color: #717fe0 !important;
+}
+.plus:hover{
+    background-color: #717fe0 !important;
+}
+/*Prevent text selection*/
+span{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+input{
+    border: 0;
+    width: 2%;
+}
+nput::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:disabled{
+    background-color:white;
 }
